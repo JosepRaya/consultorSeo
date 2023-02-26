@@ -26,7 +26,9 @@ header {
     align-items: center;
 }
 
-nav ul{
+/* antiguo control de menu*/
+
+ nav ul{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -35,12 +37,6 @@ nav ul{
     font-size: 18px;
     margin-top: 30px;
 }
-
-.menu li:hover{
-    background: #2ccab9;
-
-}
-
 
 
 p{
@@ -78,11 +74,10 @@ h2 {
 
 section{
     
-    
     display: flex;
 }
 
-
+/* controlando los enlaces */
 
 a:link {
     outline: none;
@@ -104,6 +99,7 @@ a:visited{
 
 }
 
+/* imagenes de la web */
 .imagen{
     
     display: flex;
@@ -122,7 +118,7 @@ a:visited{
     padding: 50px 0px 0px 0px;
 }
 
-
+/* dando forma al footer */
 
 footer{
     background-color: #ffffff;
@@ -148,6 +144,7 @@ hr {
     width: 25%;
 }
 
+/* mapa de google */
 .mapa{
 
     margin: 50px;
@@ -155,12 +152,14 @@ hr {
     align-items: center;
 }
 
+/* ponemos bonito el formulario */
 form {
     
     margin: 0 auto;
     width: 500px;
     
-  }
+}
+
 label {
     
     display: inline-block;
@@ -174,30 +173,15 @@ textarea {
     width: 300px;
     box-sizing: border-box;
     border: 1px solid #000;
-  }
+}
 
-  
-  .enviar {
+
+.enviar {
     
     margin-bottom: 20px;
     margin-top: 20px;
     }
 
-    .carousel-inner {
-        height: 0;
-        padding-bottom: 25%; /* this sets carousel aspect ratio (4:1 here) */
-      }
-      
-      .carousel-item {
-        position: absolute !important; /* Bootstrap is insistent */
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-      }
-      
-      .carousel-item img {
-        height: 100%; /* Bootstrap handles width already */
-        object-fit: cover; /* or 'contain' if you want stretch instead of crop */
-      }
-
+.servicios{
+    font-weight: bold;
+}
