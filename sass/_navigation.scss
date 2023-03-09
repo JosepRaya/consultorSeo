@@ -1,0 +1,15 @@
+//navegación - botonera
+@import 'variables';
+@import 'fonts';
+
+nav {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        list-style-type: none;
+        font-weight: $fuente-gruesa;
+        font-size: 18px;
+        margin-top: 30px;
+        }
+    }

@@ -1,0 +1,22 @@
+// cabecera
+@import 'variables';
+@import 'fonts';
+
+header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+
+    .logo {
+        width: 150px;
+        flex: 1;
+
+        a {
+            display: flex;
+            align-items: center;
+            @include font-roboto($fuente-media);
+            font-weight: $fuente-gruesa;
+            color: $color-primario;
+        }
+    }
+}

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #f3f4f6;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    flex:1;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+}
+
+/* antiguo control de menu*/
+
+ nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style:900;
+    text-align: justify;
+    color: black;
+    font-size: 30x;
+    line-height: 25px;
+    margin: 20px 0;
+    
+
+}
+
+
+h1 {
+    color: #375cd7;
+    font-size: 2em; }
+
+h2 {
+    color: #375cd7;
+    font-size: 1.5em; }
+
+.listas {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style:900;
+    text-align: justify;
+    color: black;
+    font-size: 30x;
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+section{
+    
+    display: flex;
+}
+
+/* controlando los enlaces */
+
+a:link {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: #375cd7;
+    font-size: large;
+    padding-right: 10px;
+}
+
+
+a:hover {
+    color: #375cd7;
+    
+}
+
+a:visited{
+    color: #375cd7;
+
+}
+
+/* imagenes de la web */
+.imagen{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+.imagen .contenido {
+    padding: 20px;
+    text-align: left;
+}
+
+.imagen img {
+    max-width: 100%;
+    padding: 50px 0px 0px 0px;
+}
+
+/* dando forma al footer */
+
+footer{
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.footer p {
+    font-size: 1.4rem;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #f3f4f6;
+    text-align: center;
+    align-items: center;
+    
+hr {
+    background-color: #375cd7 ;
+    height: 10px;
+    margin-left: 25%;
+    width: 25%;
+}
+
+/* mapa de google */
+.mapa{
+
+    margin: 50px;
+    padding: 20px;
+    align-items: center;
+}
+
+/* ponemos bonito el formulario */
+form {
+    
+    margin: 0 auto;
+    width: 500px;
+    
+}
+
+label {
+    
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+input,
+textarea {
+    
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+
+.enviar {
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+
+.servicios{
+    font-weight: bold;
+}
